@@ -55,7 +55,3 @@ fasm src/c_exit.asm bin/c_exit.o
 gcc -nostdlib -o bin/putsf.bin bin/putsf.o bin/c_putsf.o bin/c_exit.o bin/putsf_example.c
 ```
 
-## Поддержка
-Если у вас возникли сложности или вопросы по использованию Metalfish OS, создайте 
-[обсуждение](https://github.com/OkulusDev/asm-putsf/issues/new/choose) в данном репозитории или напишите на электронную почту <bro.alexeev@gmail.com>.
-
