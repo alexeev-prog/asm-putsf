@@ -3,12 +3,12 @@
 ;  File: cputsf.asm
 ;  Title: Связка putsf с C
 ;  Last Change Date: 2 November 2023, 14:10 (UTC)
-;  Author: Okulus Dev
-;  License: GNU GPL v3
+;  Author: Alexeev Bronislav
+;  License: MIT License
 ; -----------------------------------------------------------------------------
-; Description: 
+; Description:
 ;   putsf - это альтернатива printf. PutsF минималичстичный, ограниченн символами
-;  %c, %s, %d и %%. 
+;  %c, %s, %d и %%.
 ;   TODO: добавить реализации с %f (плавающие числа), %x (hex, 16-ые числа)
 ; -----------------------------------------------------------------------------
 format ELF64
@@ -36,6 +36,6 @@ c_putsf:
     pop r8
     pop r9
 
-    push r10 
-    ret 
+    push r10
+    ret
 

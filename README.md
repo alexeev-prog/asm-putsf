@@ -3,7 +3,7 @@
 
 ## Установка
 
-[Релизы программы]: https://github.com/OkulusDev/asm-putsf/releases
+[Релизы программы]: https://github.com/alexeev-prog/asm-putsf/releases
 
 У вас должна быть 64 битная Linux-система (если у вас другая система, измените код, если у вас другая разрядность, то измените регистры в коде).
 
@@ -11,7 +11,7 @@
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/OkulusDev/asm-putsf.git
+git clone https://github.com/alexeev-prog/asm-putsf.git
 cd asm-putsf
 
 # компиляция и линковка
